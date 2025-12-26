@@ -1,82 +1,5 @@
 @charset "UTF-8";
-/*
-Template Name: Realar
-Template URL: https://themeholy.com/html/realar/
-Description: Real Estate Apartment Complex HTML Template
-Author: themeholy
-Author URI: https://themeforest.net/user/themeholy
-Version: 1.0.0
-*/
-/*=================================
-    CSS Index Here
-==================================*/
-/*
 
-01. Theme Base
-    1.1. Mixin
-    1.2. Function
-    1.3. Variable
-    1.4. Typography
-    1.5. Extend
-    1.7. Wordpress Default
-02. Reset
-    2.1. Container
-    2.2. Grid
-    2.3. Input
-    2.4. Slider
-    2.5. Mobile Menu
-03. Utilities
-    3.1. Preloader
-    3.2. Buttons
-    3.3. Titles
-    3.4. Common
-    3.6. Font
-    3.7. Background
-    3.8. Text Color
-    3.9. Overlay
-    3.10. Animation
-    
-04. Template Style
-    4.1. Widget
-    4.2. Header
-    4.3. Footer
-    4.4. Breadcumb
-    4.5. Pagination
-    4.6. Blog
-    4.7. Comments
-    4.8. Hero Area
-    4.9. Error    
-    4.00. Popup Search
-    4.00. Popup Side Menu
-    4.00. Wocommerce
-    4.00. Products
-    4.00. Cart
-    4.00. Checkout
-    4.00. Wishlist
-    4.00. Contact
-    4.00. About
-    4.00. Team
-    4.00. Testimonial
-    4.00. Counter
-    4.00. Blog
-    4.00. Brand
-    4.00. Simple Sections
-    4.00. Why
-    4.00. Faq
-    4.00. Service
-    4.00. Process
-    4.00. Pricing
-    4.00. Feature
-    4.00. Project
-    4.00. Category
-    4.00. CTA
-    4.00. Appointment
-    4.00. Video
-    4.00. Tab Menu
-
-05. Spacing
-
-*/
 /*=================================
     CSS Index End
 ==================================*/
@@ -8247,11 +8170,13 @@ ol.wp-block-rss {
 
 .footer-widget.widget_meta a:hover, .footer-widget.widget_pages a:hover, .footer-widget.widget_archive a:hover, .footer-widget.widget_categories a:hover, .footer-widget.widget_nav_menu a:hover {
   background-color: transparent;
-  color: var(--theme-color2);
+  /* color: var(--theme-color2); */
+  color: #198754;
 }
 
 .footer-widget.widget_meta a:hover:before, .footer-widget.widget_pages a:hover:before, .footer-widget.widget_archive a:hover:before, .footer-widget.widget_categories a:hover:before, .footer-widget.widget_nav_menu a:hover:before {
-  color: var(--theme-color2);
+  /* color: var(--theme-color2); */
+  color: #198754;
   left: 5px;
 }
 
@@ -23414,6 +23339,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .insta-box img {
   width: 100%;
+  height: 400px;
 }
 
 .insta-box .icon-btn {
@@ -23670,13 +23596,14 @@ span.select2-selection.select2-selection--single:focus {
   border-radius: 16px;
   text-align: center;
   padding: 40px;
+  width: 260px;
 }
 
 .rent-card .box-icon {
   display: inline-block;
-  height: 114px;
-  width: 114px;
-  line-height: 112px;
+  height: 90px;
+  width: 90px;
+  line-height: 90px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   margin-bottom: 38px;
@@ -23685,6 +23612,8 @@ span.select2-selection.select2-selection--single:focus {
 .rent-card .box-icon img {
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  width: 50%;
+  filter: brightness(0) invert(1);
 }
 
 .rent-card .box-title {
@@ -28676,5 +28605,23 @@ span.select2-selection.select2-selection--single:focus {
 }
 .textft2{
   font-size: 8px;
+}
+
+.processmain{
+  display: flex;
+  gap: 15px;
+}
+@media(max-width:991px){
+  .processmain{
+  display: grid;
+  gap: 15px;
+}
+.rent-card {
+  background: var(--theme-color);
+  border-radius: 16px;
+  text-align: center;
+  padding: 40px;
+  width: auto !important;
+}
 }
 /*# sourceMappingURL=style.css.map */
