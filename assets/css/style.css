@@ -28627,7 +28627,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .floating_btn {
     position: fixed;
-    bottom: 30px;
+    bottom: 90px;
     right: 30px;
     width: 100px;
     height: 100px;
@@ -28678,7 +28678,7 @@ span.select2-selection.select2-selection--single:focus {
 @media (max-width:767px) {
     .floating_btn {
         position: fixed;
-        bottom: 30px;
+        bottom: 90px;
         right: 24px;
         width: 32px;
         height: 32px;
